@@ -36,6 +36,8 @@ body {
     background-image: url(https://ip193jv95q-flywheel.netdna-ssl.com/wp-content/uploads/2016/07/DRINK-MENU-BANNER-1.png);
     background-size: cover;
     z-index: -1;
+    height: 200px;
+   
   }
   .overlay {
     position: relative;
@@ -63,6 +65,11 @@ body {
     height: 140px;
   }
 
+  .navbar{
+      color: white;
+      height: 140px;
+  }
+
   #title {
     z-index: 10;
   }
@@ -74,6 +81,8 @@ body {
     transform: translate(-50%, -50%);
     color : white;
   }
+  
+
 
 
   @media only screen and (min-width : 856)  and (max-width: 999px) {
@@ -84,6 +93,11 @@ body {
       color : white;
       height: 160px;
     }
+
+    #footer-text {
+      transform: translate(-60%, -40%);
+    }
+
   }
 
 
@@ -93,6 +107,10 @@ body {
     }
     .jumbotron {
       height: 180px;
+    }
+    #footer-text {
+      top : 200%;
+      left: 80%;
     }
   }
 
@@ -121,8 +139,12 @@ body {
     .jumbotron {
       height: 310px;
     }
+    
+
   }
 
+
+  
   h1 {
     color : white;
   }
@@ -140,9 +162,9 @@ body {
       height: 100px;
   }
 
-  .footer-text {
+  #footer-text {
     position: absolute;
-    top : 148%;
+    top : 138%;
     left: 38%;
     transform: translate(-50%, -50%);
     color : white;
